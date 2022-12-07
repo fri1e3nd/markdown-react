@@ -1,0 +1,66 @@
+.noActiveNote {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(201, 209, 217, 1);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.main {
+  max-width: 70%;
+  width: 100%;
+  padding: 12px;
+}
+
+.noteEdit {
+  height: calc(50vh - 24px);
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  max-width: 100%;
+  border: 1px solid rgba(54, 59, 66, 1);
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(201, 209, 217, 1);
+  overflow-x: hidden;
+  padding: 4px 6px 4px 12px;
+  margin-bottom: 12px;
+  &:focus {
+    border: 1px solid rgba(88, 166, 255, 1);
+  }
+  &::-webkit-scrollbar {
+    width: 14px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(54, 59, 66, 1);
+    border: 4px solid rgba(13, 17, 23, 1); 
+    border-radius: 6px;
+  }
+}
+
+textarea {
+  height: 100%;
+}
+
+.preview {
+  height: 50vh;
+  color: rgba(201, 209, 217, 1);
+  border: 1px solid rgba(54, 59, 66, 1);
+  border-radius: 3px;
+  overflow-x: hidden;
+  padding: 4px 6px 4px 12px;
+  &::-webkit-scrollbar {
+    width: 14px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(54, 59, 66, 1);
+    border: 4px solid rgba(13, 17, 23, 1); 
+    border-radius: 6px;
+  }
+}

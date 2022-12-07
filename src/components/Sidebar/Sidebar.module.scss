@@ -1,0 +1,92 @@
+.sadebar {
+  max-width: 30%;
+  width: 100%;
+  height: 100vh;
+  border-right: 1px solid rgba(33, 38, 45, 1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(54, 59, 66, 1);
+  padding: 12px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 600;
+  color: rgba(201, 209, 217, 1);
+}
+
+.addNote {
+  background: rgba(31, 111, 235, 1);
+  border: 1px solid rgba(52, 125, 237, 1);
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  white-space: nowrap;
+  padding: 4px 12px;
+  transition: .2s all ease;
+  &:hover {
+    background: rgba(56, 139, 253, 1);
+  }
+}
+
+.notes {
+  height: 100vh;
+  overflow: scroll;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(54, 59, 66, 1);
+  padding: 12px;
+  &_active {
+    background: rgba(33, 38, 45, 1);
+  }
+  &:hover {
+    background: rgba(33, 38, 45, 1);
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column; 
+}
+
+.titleNote {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(201, 209, 217, 1);
+  margin-bottom: 8px;
+}
+
+.lastModified {
+  font-size: 12px;
+  font-weight: 300;
+  color: rgba(139, 148, 158, 1);
+}
+
+.deleteNote {
+  background: rgba(33, 38, 45, 1);
+  border: 1px solid rgba(54, 59, 66, 1);
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(248, 81, 73, 1);
+  white-space: nowrap;
+  padding: 4px 12px;
+  transition: .2s all ease;
+  &:hover {
+    background: rgba(218, 54, 51, 1);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(248, 81, 73, 1);
+  }
+}
