@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/markdown-react/static/css/main.c3c9f624.css",
+    "main.js": "/markdown-react/static/js/main.9015866d.js",
+    "index.html": "/markdown-react/index.html",
+    "main.c3c9f624.css.map": "/markdown-react/static/css/main.c3c9f624.css.map",
+    "main.9015866d.js.map": "/markdown-react/static/js/main.9015866d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c3c9f624.css",
+    "static/js/main.9015866d.js"
+  ]
+}
